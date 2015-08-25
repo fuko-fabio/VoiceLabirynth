@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="40" height="40" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Desert" tilewidth="32" tileheight="32" spacing="3" margin="2">
+  <image source="gfx/desert_tiled.png" width="281" height="211"/>
+  <tile id="0">
+   <properties>
+    <property name="colidable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="colidable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="colidable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="colidable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="colidable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="colidable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="checkPoint" value="true"/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="colidable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="colidable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="colidable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="colidable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="colidable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="27">
+   <properties>
+    <property name="colidable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="28">
+   <properties>
+    <property name="colidable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30">
+   <properties>
+    <property name="cactus" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31">
+   <properties>
+    <property name="colidable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33">
+   <properties>
+    <property name="endPoint" value="true"/>
+   </properties>
+  </tile>
+  <tile id="45">
+   <properties>
+    <property name="startPoint" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Ground" width="40" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC7WYS08DMQyEFzhRDlWhHHj0QZFoAYn2//86UmkjWdZ4Ms62B0vpNuvN+rMnzi6HYXgU7LnYMnH9Enb2/VDsr9ja2MH9nhe7H+fOhestOwlzqu/3YrfE7sb5dR3n8Q25znypZn232DyBdbDxJVj7Z1o2nq3naO87BdczrCPe/pktNisxfpdgjXJn0RF3Nlb8sZqNeCA2exL3BVg348tqN8ojX5Mq60hrevgiplPqsMYs0poMX8RUGXtOTLdVvv6/yMee+FZ0u1XXiG+UPxlt2CbZsLr2OVLnef8ZvozNnvynslb5XkNbKyefO5G/qK48D5SLPfso44T8Md1U4opYo/15ij+kmxktVFgzfwfij92XyUvGukdbZ6O1dKS1VpuXlet5/9wY1tnaU9cXrZXNfyn2OtobmRv1hVb7oj6ll/X5HT6K7Ub7LPbVEb91cF/dr7J9Zh0fwfosfxYzVB9eK22OZ88Udfxd7Ge038R9VnNbfFt6FcXB1sdx0OsD9b6bRnyzvSDrZZR8Qb1vb55FPC55Bs3qS4uHYqoG2PdV34vtQT39S+bd7Xupet97NkQxQe9ec3F7Rb5RH6Oytj6y9ZE5a06paxa/zN6u9qr2W2Crr0H51xNLxB0x9t8CM3o6RQszda08J6q93j03y5o9xzPw32Js3NV+Q2WNnmN7pqnnfXSuQ3ud/e7CziLX/L7W0sI6ZwYMxZdpZcR3N+BaUnmsgvWpHJlfmxf/kNwWHgAZAAA=
+  </data>
+ </layer>
+ <objectgroup name="Walls" width="40" height="40">
+  <properties>
+   <property name="wall" value="true"/>
+  </properties>
+  <object x="0" y="0" width="1280" height="32"/>
+  <object x="0" y="32" width="32" height="1248"/>
+  <object x="32" y="1248" width="1248" height="64"/>
+  <object x="1248" y="32" width="32" height="1216"/>
+  <object x="32" y="64" width="256" height="64"/>
+  <object x="320" y="32" width="64" height="192"/>
+  <object x="64" y="160" width="256" height="64"/>
+  <object x="64" y="256" width="64" height="992"/>
+  <object x="160" y="992" width="64" height="256"/>
+  <object x="256" y="992" width="64" height="224"/>
+  <object x="320" y="992" width="448" height="64"/>
+  <object x="352" y="1088" width="64" height="128"/>
+  <object x="416" y="1088" width="256" height="64"/>
+  <object x="608" y="1056" width="64" height="32"/>
+  <object x="448" y="1184" width="224" height="64"/>
+  <object x="160" y="896" width="512" height="64"/>
+  <object x="32" y="640" width="32" height="32"/>
+  <object x="128" y="384" width="32" height="32"/>
+  <object x="160" y="448" width="64" height="416"/>
+  <object x="224" y="448" width="448" height="64"/>
+  <object x="256" y="544" width="320" height="320"/>
+  <object x="608" y="512" width="64" height="384"/>
+  <object x="416" y="64" width="64" height="256"/>
+  <object x="160" y="256" width="256" height="64"/>
+  <object x="160" y="320" width="64" height="96"/>
+  <object x="224" y="352" width="352" height="64"/>
+  <object x="512" y="288" width="64" height="64"/>
+  <object x="512" y="32" width="64" height="224"/>
+  <object x="608" y="64" width="64" height="384"/>
+  <object x="672" y="64" width="544" height="64"/>
+  <object x="704" y="160" width="512" height="64"/>
+  <object x="1152" y="224" width="64" height="256"/>
+  <object x="704" y="256" width="416" height="64"/>
+  <object x="1056" y="320" width="64" height="800"/>
+  <object x="704" y="352" width="192" height="64"/>
+  <object x="928" y="352" width="128" height="64"/>
+  <object x="800" y="448" width="224" height="64"/>
+  <object x="704" y="416" width="64" height="576"/>
+  <object x="800" y="512" width="64" height="256"/>
+  <object x="896" y="544" width="128" height="352"/>
+  <object x="800" y="800" width="64" height="416"/>
+  <object x="704" y="1056" width="64" height="160"/>
+  <object x="768" y="1152" width="32" height="64"/>
+  <object x="864" y="1152" width="352" height="64"/>
+  <object x="1152" y="1216" width="64" height="32"/>
+  <object x="1152" y="768" width="64" height="384"/>
+  <object x="896" y="928" width="64" height="192"/>
+  <object x="960" y="1056" width="96" height="64"/>
+  <object x="992" y="928" width="32" height="32"/>
+  <object x="992" y="992" width="32" height="32"/>
+  <object x="1152" y="512" width="64" height="224"/>
+  <object x="1120" y="672" width="32" height="64"/>
+  <object x="1216" y="576" width="32" height="32"/>
+ </objectgroup>
+</map>
